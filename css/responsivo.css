@@ -1,0 +1,49 @@
+@media screen and (max-device-width: 499px) {
+    main {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    #nova-tarefa {
+        max-width: 100%;
+        padding: 10px;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    #input-nova-tarefa {
+        width: 100%;
+    }
+
+    #titulo-tabela {
+        font-size: 1.2em;
+    }
+
+    .td-tarefa {
+        width: 100%;
+    }
+
+    .tarefa {
+        justify-content: left;
+        width: 100%;
+    }
+
+    .btn-editar,
+    .btn-excluir {
+        width: 30px;
+        height: 30px;
+        margin: 5px;
+        border-radius: 0.7em;
+    }
+
+    .edit-icon,
+    .trash-icon {
+        filter: invert();
+        width: 90%;
+        height: 90%;
+    }
+
+    .feito {
+        transform: translateX(10%) scale(0.9);
+    }
+}
